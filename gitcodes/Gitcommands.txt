@@ -60,3 +60,9 @@ git push -u --force origin master:main
 First, pull the remote branch, merge conflicts, then push.
 git pull origin main
 git push -u origin master:main
+
+If you want to merge remote changes (not usually needed for a new/blank repo):
+git pull origin main --allow-unrelated-histories
+git push -u origin master:main
+
+
