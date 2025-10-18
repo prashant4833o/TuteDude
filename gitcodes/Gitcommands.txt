@@ -37,7 +37,7 @@ git status
 git add .
 git status
 git commit -m "Commit Message"
-git push --set-upstream origin master
+git push --set-upstream origin main
 
 create a new branch 
 git checkout -b "branchName"
