@@ -13,7 +13,7 @@ if os.path.exists(FileName):
     for i in range(len(lines)):
         print(f"line {i}:   {lines[i]}")
 else:
-    print("File does not exist.")
+    print("Error: The file "+FileName+" does not exist.")
 
     
 
