@@ -11,15 +11,17 @@ FileName="output.txt"
 user_input = input("Enter some text to write to the file: ")
 with open(FileName, "w") as f:
     f.write(user_input + "\n")
+    print("Data written to the file successfully.")
 
 # Appending additional data to the file
 additional_data = input("Enter some additional data to append to the file: ")
 with open(FileName, "a") as f:  
     f.write(additional_data + "\n")
+    print("Additional data appended to the file successfully.")
 
 # Reading and displaying the final content of the file
 with open(FileName, "r") as f:
     content = f.read()
-    print("Final content of the file:")
+    print(f"Final content of the {FileName}:")
     print(content)
     

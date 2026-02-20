@@ -19,7 +19,7 @@ Task1:
 #~ Division of two numbers is: 2.0
 #~ Explanation:
 #~ The program takes two numbers as input from the user and performs addition, subtraction, multiplication, and division on these numbers. It then displays the results of each operation on the screen.
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 Task2:
 #! Task 2: Create a Personalized Greeting
 #! Problem Statement: Write a Python program that:
@@ -34,4 +34,4 @@ Task2:
 #~ Hello John Doe! Welcome to Python programming.
 #~ Explanation:
 #~ The program takes the user's first name and last name as input and concatenates them into a full name. It then prints a personalized greeting message using the full name.
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------
